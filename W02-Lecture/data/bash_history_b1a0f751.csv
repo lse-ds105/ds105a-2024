@@ -1,0 +1,15 @@
+1 ,2024-10-09-13:43:03, mkdir [directory]
+2 ,2024-10-09-13:43:08, pwd
+3 ,2024-10-09-13:44:27, mkdir W02-Practice/data
+4 ,2024-10-09-13:45:38, mkdir W02-Practice/code
+5 ,2024-10-09-13:45:41, pwd
+6 ,2024-10-09-13:45:57, history
+7 ,2024-10-09-13:46:17, print-history
+8 ,2024-10-09-13:53:15, exec bash
+9 ,2024-10-09-16:59:32, cd W02-Practice/commands_analysis.py
+10 ,2024-10-09-17:00:02, cd W02-Practice
+11 ,2024-10-09-17:02:02, nano ./code/commands_analysis.py
+12 ,2024-10-09-17:03:20, python code/commands_analysis.py
+13 ,2024-10-09-17:05:04, mv commands_analysis.py code
+14 ,2024-10-09-17:07:12, python code/commands_analysis.py
+15 ,2024-10-09-17:07:40, print-history > ./data/bash_history.csv

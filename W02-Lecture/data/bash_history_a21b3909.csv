@@ -1,0 +1,57 @@
+1 ,2024-10-07-15:30:07, python
+2 ,2024-10-08-14:28:18, python
+3 ,2024-10-08-14:31:37, ls
+4 ,2024-10-08-14:32:10, cd W01-Practice
+5 ,2024-10-08-14:32:29, mkdir data
+6 ,2024-10-08-14:32:42, ls
+7 ,2024-10-08-14:33:11, cd W02-Practice
+8 ,2024-10-08-14:34:05, cd ..
+9 ,2024-10-08-14:34:10, W02-Practice
+10 ,2024-10-08-14:34:18, ls
+11 ,2024-10-08-14:34:47, cd W02-Practice/
+12 ,2024-10-08-14:35:04, mkdir data
+13 ,2024-10-08-14:35:12, ls
+14 ,2024-10-08-14:35:35, cd code
+15 ,2024-10-08-14:35:53, history
+16 ,2024-10-08-14:36:24, print-history
+17 ,2024-10-08-14:39:00, print-history > ./data/bash_history.csv
+18 ,2024-10-08-14:43:02, cat ./data/bash_history.csv
+19 ,2024-10-08-14:49:12, cat bash_history.csv
+20 ,2024-10-08-14:49:34, ls
+21 ,2024-10-08-14:49:49, cd data
+22 ,2024-10-08-14:49:50, ls
+23 ,2024-10-08-14:49:52, cd ..
+24 ,2024-10-08-14:49:54, ls
+25 ,2024-10-08-14:49:59, mkdir code
+26 ,2024-10-08-14:50:00, ls
+27 ,2024-10-08-14:50:28, code data README.md
+28 ,2024-10-08-14:50:28, (base) 14:50:00 - nuvolos:/files/W02-Practice$
+29 ,2024-10-08-14:53:16, cat bash_history.csv
+30 ,2024-10-08-14:53:45, cd code
+31 ,2024-10-08-14:53:51, cat bash_history.csv
+32 ,2024-10-08-14:54:06, ls
+33 ,2024-10-08-14:54:12, cd ..
+34 ,2024-10-08-14:54:23, cd data
+35 ,2024-10-08-14:54:24, ls
+36 ,2024-10-08-14:54:29, cat bash_history.csv
+37 ,2024-10-08-14:55:20, [200~head bash_history.csv~
+38 ,2024-10-08-14:55:32, head bash_history.csv
+39 ,2024-10-08-14:56:18, tail bash_history.csv
+40 ,2024-10-08-14:56:50, head -n 5 bash_history.csv
+41 ,2024-10-08-14:57:16, tail -n 5 bash_history.csv
+42 ,2024-10-08-14:57:44, wc -l bash_history.csv
+43 ,2024-10-08-14:57:55, head -n 7 bash_history.csv
+44 ,2024-10-08-14:58:31, wc -w bash_history.csv
+45 ,2024-10-08-15:01:02, grep -c 'ls' bash_history.csv
+46 ,2024-10-08-15:04:44, sort bash_history.csv | uniq -c
+47 ,2024-10-08-15:06:31, cut -d , -f 1 bash_history.csv
+48 ,2024-10-08-15:06:54, cut -d , -f 3 bash_history.csv
+49 ,2024-10-08-15:07:21, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' '
+50 ,2024-10-08-15:08:03, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c
+51 ,2024-10-08-15:08:19, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -n
+52 ,2024-10-08-15:09:02, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -nr | head -n 5
+53 ,2024-10-08-15:13:37, print-history > ./data/bash_history.csv
+54 ,2024-10-08-15:14:25, ls
+55 ,2024-10-08-15:15:33, cd..
+56* ,2024-10-08-15:15:38, cd ..Aprint-history > ./data/bash_history.csv
+57 ,2024-10-08-15:15:48, print-history > ./data/bash_history.csv

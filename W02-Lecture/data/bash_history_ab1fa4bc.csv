@@ -1,0 +1,54 @@
+1 ,2024-10-09-17:35:29, W02-Practice/
+2 ,2024-10-09-17:35:29, ├── data/
+3 ,2024-10-09-17:35:29, └── code/
+4 ,2024-10-09-17:37:00, mkdir Practice/data/code/
+5 ,2024-10-09-17:50:40, mkdir W02-Practice
+6 ,2024-10-09-17:50:50, cd W02-Practice
+7 ,2024-10-09-17:51:03, mkdir data
+8 ,2024-10-09-17:51:07, cd data
+9 ,2024-10-09-17:51:15, cd code
+10 ,2024-10-09-17:51:19, mkdir code
+11 ,2024-10-09-17:51:22, cd code
+12 ,2024-10-09-17:51:28, history
+13 ,2024-10-09-17:51:32, print_history
+14 ,2024-10-09-17:51:37, print-history
+15 ,2024-10-09-17:52:23, print-history > ./data/bash_history.csv
+16 ,2024-10-09-17:54:03, cd W02-Practice
+17 ,2024-10-09-17:54:18, cd ~
+18 ,2024-10-09-17:54:22, cd W02-Practice
+19 ,2024-10-09-17:54:26, cd files
+20 ,2024-10-09-17:54:28, cd W02-Practice
+21 ,2024-10-09-17:54:30, print-history > ./data/bash_history.csv
+22 ,2024-10-09-17:54:41, cat ./data/bash_history.csv
+23 ,2024-10-09-17:55:22, cat bash_history.csv
+24 ,2024-10-09-17:56:12, cd ~
+25 ,2024-10-09-17:56:13, cat bash_history.csv
+26 ,2024-10-09-17:56:15, cd files
+27 ,2024-10-09-17:56:16, cat bash_history.csv
+28 ,2024-10-09-17:56:47, cd bash_history.csv
+29 ,2024-10-09-17:58:20, locate bash_history.csv
+30 ,2024-10-09-17:58:52, mdfind bash_history.csv
+31 ,2024-10-09-18:00:02, cd data
+32 ,2024-10-09-18:00:10, cd W02-Practice
+33 ,2024-10-09-18:00:14, cd data
+34 ,2024-10-09-18:00:16, cat bash_history.csv
+35 ,2024-10-09-18:00:29, head bash_history.csv
+36 ,2024-10-09-18:00:37, tail bash_history.csv
+37 ,2024-10-09-18:00:53, head -n 5 bash_history.csv
+38 ,2024-10-09-18:01:05, tail -n 5 bash_history.csv
+39 ,2024-10-09-18:02:08, wc -l bash_history.csv
+40 ,2024-10-09-18:03:29, wc -w bash_history.csv
+41 ,2024-10-09-18:03:40, grep -c 'ls' bash_history.csv
+42 ,2024-10-09-18:06:11, sort bash_history.csv | uniq -c
+43 ,2024-10-09-18:07:04, cut -d , -f 1 bash_history.csv
+44 ,2024-10-09-18:08:35, cut -d , -f 3 bash_history.csv
+45 ,2024-10-09-18:08:41, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' '
+46 ,2024-10-09-18:09:26, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c
+47 ,2024-10-09-18:10:15, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -n
+48 ,2024-10-09-18:10:34, echo "My top 5 commands:"
+49 ,2024-10-09-18:10:34, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -nr | head -n 5
+50 ,2024-10-09-18:11:58, print-history > ./data/bash_history.csv
+51 ,2024-10-09-18:12:06, cd ~
+52 ,2024-10-09-18:12:11, cd files
+53 ,2024-10-09-18:12:15, cd W02-Practice
+54 ,2024-10-09-18:12:16, print-history > ./data/bash_history.csv

@@ -1,0 +1,26 @@
+1 ,2024-10-07-21:03:22, pwd
+2 ,2024-10-07-21:03:45, ls
+3 ,2024-10-07-21:04:09, cd ~/W02-Practice
+4 ,2024-10-07-21:04:29, cd W02-Practice
+5 ,2024-10-07-21:04:32, ls
+6 ,2024-10-07-21:04:49, mkdir data
+7 ,2024-10-07-21:04:53, cd data
+8 ,2024-10-07-21:04:59, mkdir code
+9 ,2024-10-07-21:05:03, ls
+10 ,2024-10-07-21:05:14, history
+11 ,2024-10-07-21:05:35, print-history
+12 ,2024-10-07-21:06:45, print-history > ./data/bash_history.csv
+13 ,2024-10-07-21:07:05, print-history > ./data/bash_history.csv
+14 ,2024-10-07-21:07:30, cd !
+15 ,2024-10-07-21:07:32, cd~
+16 ,2024-10-07-21:07:35, cd ~
+17 ,2024-10-07-21:07:40, pwd
+18 ,2024-10-07-21:08:01, print-history > ./data/bash_history.csv
+19 ,2024-10-07-21:08:13, cd data
+20 ,2024-10-07-21:08:19, cd files
+21 ,2024-10-07-21:08:26, cd W02-Practice
+22 ,2024-10-07-21:08:47, print-history > ./data/bash_history.csv
+23 ,2024-10-07-21:09:48, cat ./data/bash_history.csv
+24 ,2024-10-07-21:10:31, less bash_history.csv
+25 ,2024-10-09-14:07:30, cd W02-Practice
+26 ,2024-10-09-14:07:44, print-history > ./data/bash_history.csv

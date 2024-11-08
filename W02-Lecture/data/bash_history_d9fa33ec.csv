@@ -1,0 +1,82 @@
+1 ,2024-10-08-21:09:23, mkdir W02-Practice
+2 ,2024-10-08-21:09:29, cd W02-Practice
+3 ,2024-10-08-21:09:34, mkdir data
+4 ,2024-10-08-21:09:37, cd data
+5 ,2024-10-08-21:09:49, cd ~
+6 ,2024-10-08-21:10:00, cd files/W02-Practice
+7 ,2024-10-08-21:10:03, mkdir code
+8 ,2024-10-08-21:10:08, history
+9 ,2024-10-08-21:10:18, print-history
+10 ,2024-10-08-21:15:00, print-history > ./data/bash_history.csv
+11 ,2024-10-08-21:15:42, cat ./data/bash_history.csv
+12 ,2024-10-08-21:21:14, cd data
+13 ,2024-10-08-21:21:20, cat bash_history.csv
+14 ,2024-10-08-21:21:37, head bash_history.csv
+15 ,2024-10-08-21:21:44, tail bash_history.csv
+16 ,2024-10-08-21:21:50, head -n 5 bash_history.csv
+17 ,2024-10-08-21:21:56, tail -n 5 bash_history.csv
+18 ,2024-10-08-21:22:07, wc -l bash_history.csv
+19 ,2024-10-08-21:22:12, wl -w bash_history.csv
+20 ,2024-10-08-21:22:19, wc -w bash_history.csv
+21 ,2024-10-08-21:22:40, grep -c 'ls' bash_history.csv
+22 ,2024-10-08-21:22:52, grep -c 'print' bash_history.csv
+23 ,2024-10-08-21:22:59, grep -c 'cd' bash_history.csv
+24 ,2024-10-08-21:23:30, sort bash_history.csv | uniq -c
+25 ,2024-10-08-21:23:52, cut -d , -f 1 bash_history.csv
+26 ,2024-10-08-21:24:05, cut -d , -f 3 bash_history.csv
+27 ,2024-10-08-21:24:31, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' '
+28 ,2024-10-08-21:24:54, cut -d, -f 3 bash_history.csv | cut -f 2 -d ' ' | sort |uniq -c
+29 ,2024-10-08-21:25:05, cut -d, -f 3 bash_history.csv | cut -f 2 -d ' ' | sort |uniq -c | sort -n
+30 ,2024-10-08-21:25:24, cut -d, -f 3 bash_history.csv | cut -f 2 -d ' ' | sort |uniq -c | sort -nr
+31 ,2024-10-08-21:25:55, print-history > bash_history.csv
+32 ,2024-10-08-21:26:03, cat bash_history.csv
+33 ,2024-10-08-21:26:50, cd ~
+34 ,2024-10-08-21:26:52, cd files
+35 ,2024-10-08-21:26:57, cd W02-Practice
+36 ,2024-10-08-21:27:00, python
+37 ,2024-10-08-21:43:56, cat bash_history.json
+38 ,2024-10-08-21:44:03, cd data
+39 ,2024-10-08-21:44:07, cat bash_history.json
+40 ,2024-10-08-21:45:48, cd ..
+41 ,2024-10-08-21:45:58, touch ./code/commands_analysis.py
+42 ,2024-10-08-21:46:12, nano ./code/commands_analysis.py
+43 ,2024-10-08-21:47:32, nano ./code/commands_analysis.py
+44 ,2024-10-08-21:48:43, nano ./code/commands_analysis.py
+45 ,2024-10-08-21:51:20, nano ./code/commands_analysis.py
+46 ,2024-10-08-21:53:20, python code/commands_analysis.py
+47 ,2024-10-08-21:53:23, nano ./code/commands_analysis.py
+48 ,2024-10-08-21:53:32, python code/commands_analysis.py
+49 ,2024-10-08-21:53:37, nano ./code/commands_analysis.py
+50 ,2024-10-08-21:53:54, nano ./code/commands_analysis.py
+51 ,2024-10-08-21:53:57, python code/commands_analysis.py
+52 ,2024-10-08-21:55:04, nano ./code/commands_analysis.py
+53 ,2024-10-08-21:55:18, python code/commands_analysis.py
+54 ,2024-10-08-21:56:16, nano ./code/commands_analysis.py
+55 ,2024-10-08-21:56:56, python code/commands_analysis.py
+56 ,2024-10-08-21:57:07, cd data
+57 ,2024-10-08-21:57:09, cd ..
+58 ,2024-10-08-21:57:11, nano ./code/commands_analysis.py
+59 ,2024-10-08-21:57:21, python code/commands_analysis.py
+60 ,2024-10-08-21:57:26, nano ./code/commands_analysis.py
+61 ,2024-10-08-21:57:39, python code/commands_analysis.py
+62 ,2024-10-08-21:57:46, nano ./code/commands_analysis.py
+63 ,2024-10-08-21:58:20, python code/commands_analysis.py
+64 ,2024-10-08-21:58:25, nano ./code/commands_analysis.py
+65 ,2024-10-08-21:58:45, python code/commands_analysis.py
+66 ,2024-10-08-22:01:04, nano ./code/commands_analysis.py
+67 ,2024-10-08-22:03:47, python code/commands_analysis.py
+68 ,2024-10-08-22:03:51, nano ./code/commands_analysis.py
+69 ,2024-10-08-22:04:04, python code/commands_analysis.py
+70 ,2024-10-08-22:04:05, nano ./code/commands_analysis.py
+71 ,2024-10-08-22:06:03, python code/commands_analysis.py
+72 ,2024-10-08-22:06:11, nano ./code/commands_analysis.py
+73 ,2024-10-08-22:06:30, python code/commands_analysis.py
+74 ,2024-10-08-22:13:33, nano ./code/commands_analysis.py
+75 ,2024-10-08-22:15:56, python code/commands_analysis.py
+76 ,2024-10-08-22:16:00, nano ./code/commands_analysis.py
+77 ,2024-10-08-22:16:27, python code/commands_analysis.py
+78 ,2024-10-08-22:16:30, nano ./code/commands_analysis.py
+79 ,2024-10-08-22:16:50, python code/commands_analysis.py
+80 ,2024-10-08-22:17:32, nano ./code/commands_analysis.py
+81 ,2024-10-08-22:17:57, python code/commands_analysis.py
+82 ,2024-10-08-22:18:37, print-history > ./data/bash_history.csv

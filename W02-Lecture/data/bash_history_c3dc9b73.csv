@@ -1,0 +1,48 @@
+1 ,2024-10-05-15:31:04, pwd
+2 ,2024-10-05-15:31:07, ls
+3 ,2024-10-05-15:32:06, touch W02-Practice
+4 ,2024-10-05-15:32:08, ls
+5 ,2024-10-05-15:32:18, cd W02-Practice
+6 ,2024-10-05-15:32:34, ls
+7 ,2024-10-05-15:32:57, dir
+8 ,2024-10-05-15:33:00, cd ../
+9 ,2024-10-05-15:33:04, dir
+10 ,2024-10-05-15:33:27, cd W02-Practice
+11 ,2024-10-05-15:35:34, touch data
+12 ,2024-10-05-15:35:35, ls
+13 ,2024-10-05-15:35:40, cd data
+14 ,2024-10-05-15:36:17, rm -r data
+15 ,2024-10-05-15:36:25, mkdir data
+16 ,2024-10-05-15:36:26, ls
+17 ,2024-10-05-15:36:28, cd data
+18 ,2024-10-05-15:36:52, mkdir code
+19 ,2024-10-05-15:36:55, cd code
+20 ,2024-10-05-15:36:59, history
+21 ,2024-10-05-15:37:06, print-history
+22 ,2024-10-05-15:38:30, > ./data/bash_history.csv
+23 ,2024-10-05-15:39:22, print-history > ./data/bash_history.csv
+24 ,2024-10-05-15:41:11, cd ../
+25 ,2024-10-05-15:41:24, touch bash_history.csv
+26 ,2024-10-05-15:41:26, ls
+27 ,2024-10-05-15:41:33, cd code
+28 ,2024-10-05-15:41:36, print-history
+29 ,2024-10-05-15:42:02, print-history>./data/bash_history.csv
+30 ,2024-10-05-15:43:27, print-history >/files/W02-Practice/data/bash_history.csv
+31 ,2024-10-05-15:44:02, cat /files/W02-Practice/data/bash_history.csv
+32 ,2024-10-05-15:44:37, less bash_history.csv
+33 ,2024-10-05-15:47:23, cat bash_history
+34 ,2024-10-05-15:47:26, cat bash_history.csv
+35 ,2024-10-05-15:47:29, ls
+36 ,2024-10-05-15:47:37, cd ../
+37 ,2024-10-05-15:47:41, cat bash_history.csv
+38 ,2024-10-05-15:48:04, head bash_history.csv
+39 ,2024-10-05-15:48:09, tail bash_history.csv
+40 ,2024-10-05-15:48:20, wc -1 bash_history.csv
+41 ,2024-10-05-15:48:32, wc --help?
+42 ,2024-10-05-15:48:36, wwc --help
+43 ,2024-10-05-15:48:43, wc --help
+44 ,2024-10-05-15:49:32, wc -l bash_history.csv
+45 ,2024-10-05-15:49:41, wc -w bash_history.csv
+46 ,2024-10-05-15:50:05, grep -c 'ls' bash_history.csv
+47 ,2024-10-05-15:50:32, grep -c 'cd' bash_history.csv
+48 ,2024-10-05-15:51:28, print-history > /files/W02-Practice/data/bash_history.csv

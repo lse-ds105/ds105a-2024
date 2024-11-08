@@ -1,0 +1,6 @@
+1 ,2024-10-08-16:39:54, mkdir [W02-Practice]
+2 ,2024-10-08-16:41:18, history
+3 ,2024-10-08-16:41:35, print-history
+4 ,2024-10-08-18:03:09, python
+5 ,2024-10-08-18:05:06, cd W02-Practice
+6 ,2024-10-08-18:05:21, print-history > ./data/bash_history.csv

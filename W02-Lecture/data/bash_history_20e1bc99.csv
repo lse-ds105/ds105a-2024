@@ -1,0 +1,39 @@
+1 ,2024-10-08-10:34:39, mkdir -p W02-Practice/{data,code}
+2 ,2024-10-08-10:34:48, ls -R W02-Practice
+3 ,2024-10-08-10:35:17, history
+4 ,2024-10-08-10:35:29, print-history
+5 ,2024-10-08-10:35:59, print-history > ./data/bash_history.csv
+6 ,2024-10-08-10:36:36, pwd
+7 ,2024-10-08-10:36:44, cd W02-Practice
+8 ,2024-10-08-10:36:54, print-history > ./data/bash_history.csv
+9 ,2024-10-08-10:37:04, ls ./data
+10 ,2024-10-08-10:37:17, cat ./data/bash_history.csv
+11 ,2024-10-08-10:37:44, less bash_history.csv
+12 ,2024-10-08-10:39:17, cat bash_history.csv
+13 ,2024-10-08-10:39:52, pwd
+14 ,2024-10-08-10:40:22, ls
+15 ,2024-10-08-10:40:38, ls ./data
+16 ,2024-10-08-10:40:55, cat ./data/bash_history.csv
+17 ,2024-10-08-10:41:44, head bash_history.csv
+18 ,2024-10-08-10:41:44, tail bash_history.csv
+19 ,2024-10-08-10:41:53, head bash_history.cs
+20 ,2024-10-08-10:42:09, cd data
+21 ,2024-10-08-10:42:24, head bash_history.csv
+22 ,2024-10-08-10:43:13, head bash_history.cshead bash_history.cs
+23 ,2024-10-08-10:43:23, tail bash_history.csv
+24 ,2024-10-08-10:43:38, head -n 5 bash_history.csv
+25 ,2024-10-08-10:43:50, tail -n 5 bash_history.csv
+26 ,2024-10-08-10:44:07, wc -l bash_history.csv
+27 ,2024-10-08-10:44:24, wc -w bash_history.csv
+28 ,2024-10-08-10:44:47, grep -c 'ls' bash_history.csv
+29 ,2024-10-08-10:45:36, sort bash_history.csv | uniq -c
+30 ,2024-10-08-10:46:02, cut -d , -f 1 bash_history.csv
+31 ,2024-10-08-10:46:13, cut -d , -f 3 bash_history.csv
+32 ,2024-10-08-10:46:28, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' '
+33 ,2024-10-08-10:46:41, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c
+34 ,2024-10-08-10:46:56, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -n
+35 ,2024-10-08-10:47:23, echo "My top 5 commands:"
+36 ,2024-10-08-10:47:23, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -nr | head -n 5
+37 ,2024-10-08-10:48:08, print-history > ./data/bash_history.csv
+38 ,2024-10-08-10:48:34, print-history > bash_history.csv
+39 ,2024-10-08-10:50:44, print-history > ././bash_history.csv

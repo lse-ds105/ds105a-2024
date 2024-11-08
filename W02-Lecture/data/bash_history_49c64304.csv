@@ -1,0 +1,85 @@
+1 ,2024-10-05-07:42:18, cd W02-Practice
+2 ,2024-10-05-07:42:21, ls
+3 ,2024-10-05-07:42:31, mkdir data
+4 ,2024-10-05-07:42:36, ls
+5 ,2024-10-05-07:42:45, cd data
+6 ,2024-10-05-07:43:03, ../
+7 ,2024-10-05-07:43:35, cd ../
+8 ,2024-10-05-07:43:38, pwd
+9 ,2024-10-05-07:43:39, ls
+10 ,2024-10-05-07:43:53, mkdir code
+11 ,2024-10-05-07:43:54, ls
+12 ,2024-10-05-07:44:25, print-history
+13 ,2024-10-05-07:48:24, cat bash_history.csv
+14 ,2024-10-05-07:49:36, cd ~
+15 ,2024-10-05-07:49:44, cat bash_history.csv
+16 ,2024-10-05-07:49:51, cd files
+17 ,2024-10-05-07:49:52, cat bash_history.csv
+18 ,2024-10-05-07:54:52, print-history > ./data/bash_history.csv
+19 ,2024-10-05-07:55:14, cd documents
+20 ,2024-10-05-07:55:26, cd W02-Practice
+21 ,2024-10-05-07:55:28, print-history > ./data/bash_history.csv
+22 ,2024-10-05-07:56:01, cat ./data/bash_history.csv
+23 ,2024-10-05-07:57:32, head bach_history.csv
+24 ,2024-10-05-07:57:42, head bash_history.csv
+25 ,2024-10-05-07:58:01, cd data
+26 ,2024-10-05-07:58:02, head bash_history.csv
+27 ,2024-10-05-07:58:16, tail bash_history.csv
+28 ,2024-10-05-07:58:27, head -n 6 bash_history.csv
+29 ,2024-10-05-07:58:49, wc -l bash_history.csv
+30 ,2024-10-05-07:58:59, wc -w bash_history.csv
+31 ,2024-10-05-07:59:18, grep -c 'ls' bash_history.csv
+32 ,2024-10-05-08:00:25, sort bash_history.csv | uniq -c
+33 ,2024-10-05-08:00:50, cut -d , -f 1 bash_history.csv
+34 ,2024-10-05-08:01:12, cut -d , -f 3 bash_history.csv
+35 ,2024-10-05-08:01:24, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c
+36 ,2024-10-05-08:01:43, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -n
+37 ,2024-10-05-08:01:57, echo "My top 5 commands:"
+38 ,2024-10-05-08:01:57, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -nr | head -n 5
+39 ,2024-10-05-08:03:57, print-history > ./data/bash_history.csvcat ./data/bash_history.csv
+40 ,2024-10-05-08:04:25, cat ./data/bash_history.csv
+41 ,2024-10-05-08:04:45, print-history > ./data/bash_history.csv
+42 ,2024-10-05-08:05:06, cat bash_history
+43 ,2024-10-05-08:05:35, cat bash_history.csv
+44 ,2024-10-05-08:05:47, print-history > ./data/bash_history.csv
+45 ,2024-10-05-08:06:09, print-history > ./data/bash_history.csv
+46 ,2024-10-05-08:06:56, ls
+47 ,2024-10-05-08:07:14, print-history > ./data/bash_history.csv
+48 ,2024-10-05-08:07:40, cd ../
+49 ,2024-10-05-08:07:44, print-history > ./data/bash_history.csv
+50 ,2024-10-05-08:08:04, cat ./data/bash_history.csv
+51 ,2024-10-05-08:09:25, python
+52 ,2024-10-05-08:39:03, cd W02-Practice
+53 ,2024-10-05-08:39:07, mkdir data
+54 ,2024-10-05-08:39:14, mkdir code
+55 ,2024-10-05-08:39:24, history
+56 ,2024-10-05-08:40:16, print-history > ./data/bash_history.csv
+57 ,2024-10-05-08:40:26, cat ./data/bash_history.csv
+58 ,2024-10-05-08:41:31, cd data
+59 ,2024-10-05-08:41:37, cat bash_history.csv
+60 ,2024-10-05-08:41:51, less bash_history.csv
+61 ,2024-10-05-08:42:01, head bash_history.csv
+62 ,2024-10-05-08:42:08, tail bash_history.csv
+63 ,2024-10-05-08:42:23, head -n 7 bash_history.csv
+64 ,2024-10-05-08:42:30, wc -l bash_history.csv
+65 ,2024-10-05-08:42:40, wc -w bash_history.csv
+66 ,2024-10-05-08:42:49, grep -c 'ls' bash_history.csv
+67 ,2024-10-05-08:44:28, echo "My top 5 commands:"
+68 ,2024-10-05-08:44:28, cut -d , -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -nr | head -n 5
+69 ,2024-10-05-08:45:27, print-history > ./data/bash_history.csv
+70 ,2024-10-05-08:45:38, cd ../
+71 ,2024-10-05-08:45:39, print-history > ./data/bash_history.csv
+72 ,2024-10-05-08:45:43, cd data
+73 ,2024-10-05-08:45:58, python
+74 ,2024-10-05-08:47:06, cd ../
+75 ,2024-10-05-08:47:08, python
+76 ,2024-10-05-08:57:15, cat bash_history.json
+77 ,2024-10-05-08:57:29, cd data
+78 ,2024-10-05-08:57:31, cat bash_history.json
+79 ,2024-10-05-08:59:55, cd ../
+80 ,2024-10-05-08:59:57, touch ./code/commands_analysis.py
+81 ,2024-10-05-09:00:22, nano ./code/commands_analysis.py
+82 ,2024-10-05-09:04:40, python code/commands_analysis.py
+83 ,2024-10-05-09:04:57, python
+84 ,2024-10-05-09:05:06, python code/commands_analysis.py
+85 ,2024-10-05-09:05:59, print-history > ./data/bash_history.csv

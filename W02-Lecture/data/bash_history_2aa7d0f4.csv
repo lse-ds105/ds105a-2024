@@ -1,0 +1,13 @@
+1 ,2024-10-08-12:16:36, mkdir data
+2 ,2024-10-08-12:17:05, mkdir code
+3 ,2024-10-08-12:17:17, history
+4 ,2024-10-08-12:17:35, print-history
+5 ,2024-10-08-12:21:06, /W02-Practice mkdir data
+6 ,2024-10-08-12:21:50, ls
+7 ,2024-10-08-12:22:11, cd WO2-Practice
+8 ,2024-10-08-12:25:25, cd W02-Practice
+9 ,2024-10-08-12:25:40, mkdir data
+10 ,2024-10-08-12:26:00, mkdir code
+11 ,2024-10-08-12:26:07, history
+12 ,2024-10-08-12:26:27, print-history
+13 ,2024-10-08-12:31:10, print-history > ./data/bash_history.csv

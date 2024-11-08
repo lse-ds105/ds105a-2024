@@ -1,0 +1,15 @@
+1 ,2024-10-09-14:17:25, mkdir(W02-Practice)
+2 ,2024-10-09-14:17:33, mkdir(directory)
+3 ,2024-10-09-14:17:54, mkdir[directory]
+4 ,2024-10-09-14:19:20, mkdir directory
+5 ,2024-10-09-14:22:07, mkdir W02-Practice
+6 ,2024-10-09-14:22:30, cd W02-Practice
+7 ,2024-10-09-14:22:37, mkdir data code
+8 ,2024-10-09-14:22:45, history
+9 ,2024-10-09-14:23:08, print-history
+10 ,2024-10-09-14:30:22, print-history >./data/bash_history.csv
+11 ,2024-10-09-14:31:05, cat ./data/bash_history.csv
+12 ,2024-10-09-18:24:31, mkdir W02-Practice
+13 ,2024-10-09-18:24:41, cd W02-Practice
+14 ,2024-10-09-18:24:47, mkdir data code
+15 ,2024-10-09-18:26:08, print-history > ./data/bash_history.csv

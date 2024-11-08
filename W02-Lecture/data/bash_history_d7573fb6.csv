@@ -1,0 +1,28 @@
+1 ,2024-10-08-16:04:55, mkdir W02-Practice/data/code
+2 ,2024-10-08-16:05:12, mkdir W02-Practice/data/code/
+3 ,2024-10-08-16:07:13, mkdir W02
+4 ,2024-10-08-16:07:17, cd W02
+5 ,2024-10-08-16:07:33, mk data code
+6 ,2024-10-08-16:07:45, mkdir data code
+7 ,2024-10-08-16:08:07, history
+8 ,2024-10-08-16:08:55, print-history
+9 ,2024-10-08-16:09:16, print-hitory
+10 ,2024-10-08-16:09:23, print-history
+11 ,2024-10-08-16:11:46, print-history > ./data/bash_history.csv
+12 ,2024-10-08-16:12:24, cat ./data/bash_history.csv
+13 ,2024-10-08-16:56:57, rm -r W02
+14 ,2024-10-08-16:58:11, print-history
+15 ,2024-10-08-16:58:46, cd W02-Practice
+16 ,2024-10-08-16:58:51, cd data
+17 ,2024-10-08-16:59:53, cd ..
+18 ,2024-10-08-17:00:42, print-history > ./data/bash_history.csv
+19 ,2024-10-08-17:01:09, cat .data/bash_history.csv
+20 ,2024-10-08-17:01:39, cd data
+21 ,2024-10-08-17:01:49, cat bash_history.csv
+22 ,2024-10-08-17:02:46, head bash_history.csv
+23 ,2024-10-08-17:02:57, tail bash_history.csv
+24 ,2024-10-08-17:04:03, wc -l bash_history.csv
+25 ,2024-10-08-17:04:15, wc -w bash_history.csv
+26 ,2024-10-08-17:04:54, ls
+27 ,2024-10-08-17:05:44, print-history > ./data/bash_history.csv
+28 ,2024-10-08-17:06:04, print-history > bash_history.csv

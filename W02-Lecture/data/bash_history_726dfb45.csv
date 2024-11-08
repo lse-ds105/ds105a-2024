@@ -1,0 +1,63 @@
+1 ,2024-10-07-18:20:03, touch W02-Pactice/
+2 ,2024-10-07-18:20:18, pwd
+3 ,2024-10-07-18:20:26, touch
+4 ,2024-10-07-18:20:54, pwd
+5 ,2024-10-07-18:20:55, ls
+6 ,2024-10-07-18:28:44, cd W02-Practice
+7 ,2024-10-07-18:31:00, mkdir data
+8 ,2024-10-07-18:31:07, mkdir code
+9 ,2024-10-07-18:31:43, history
+10 ,2024-10-07-18:32:04, print-history
+11 ,2024-10-07-18:32:45, print-history > ./data/bash_history.csv
+12 ,2024-10-07-18:35:22, cat bash_history.csv
+13 ,2024-10-07-18:35:39, cd
+14 ,2024-10-07-18:35:40, cd
+15 ,2024-10-07-18:35:44, cat bash_history.csv
+16 ,2024-10-07-18:36:01, cd W02-Practice
+17 ,2024-10-07-18:36:05, cat bash_history.csv
+18 ,2024-10-07-18:39:03, head bash_history.csv
+19 ,2024-10-07-18:39:38, tail bash_history.csv
+20 ,2024-10-07-18:41:14, cd code
+21 ,2024-10-07-18:41:17, cd data
+22 ,2024-10-07-18:41:35, cat bash_history.csv
+23 ,2024-10-07-18:42:27, cd
+24 ,2024-10-07-18:42:28, cd
+25 ,2024-10-07-18:42:46, cat bash_history.csv
+26 ,2024-10-07-18:44:58, cd w02-practice
+27 ,2024-10-07-18:45:14, cd WO2-Practice
+28 ,2024-10-07-18:45:36, cd W02-Practice
+29 ,2024-10-07-18:45:45, cd data
+30 ,2024-10-07-18:46:06, cat bash_history.csv
+31 ,2024-10-07-18:46:39, head bash_history.csv
+32 ,2024-10-07-18:46:54, tail bash_history.csv
+33 ,2024-10-07-18:47:18, head -n 5 bash_history.csv
+34 ,2024-10-07-18:47:44, tail -n 5 bash_history.csv
+35 ,2024-10-07-18:48:05, wc -l bash_history.csv
+36 ,2024-10-07-18:48:24, wc -w bash_history.csv
+37 ,2024-10-07-18:48:58, grep -c 'ls' bash_history.csv
+38 ,2024-10-07-18:49:43, print-history > ./data/bash_history.csv
+39 ,2024-10-07-18:53:28, print-history > ./data/bash_history.csv
+40 ,2024-10-07-18:53:58, cd W02-Practice
+41 ,2024-10-07-18:54:18, cd data
+42 ,2024-10-07-18:54:20, print-history > ./data/bash_history.csv
+43 ,2024-10-07-18:55:23, cd W02-Practice
+44 ,2024-10-07-18:55:34, cd W02-Practice
+45 ,2024-10-07-18:55:37, cd
+46 ,2024-10-07-18:55:47, cd W02-Practice
+47 ,2024-10-07-18:56:00, print-history > ./data/bash_history.csv
+48 ,2024-10-07-18:56:10, python
+49 ,2024-10-07-19:12:52, cat bash_history.json
+50 ,2024-10-07-19:12:55, python
+51 ,2024-10-07-19:14:20, cat bash_history.json
+52 ,2024-10-07-19:15:11, exit() print-history > ./data/bash_history.csv
+53 ,2024-10-07-19:15:18, python
+54 ,2024-10-07-19:21:19, cat bash_history.json
+55 ,2024-10-07-19:21:52, print-history > ./data/bash_history.csv
+56 ,2024-10-07-19:25:11, touch ./code/commands_analysis.py
+57 ,2024-10-07-19:25:11, nano ./code/commands_analysis.py
+58 ,2024-10-07-19:29:23, python code/commands_analysis.py
+59 ,2024-10-07-19:29:50, cd
+60 ,2024-10-07-19:30:15, cd W02-Practice
+61 ,2024-10-07-19:30:24, python code/commands_analysis.py
+62 ,2024-10-07-19:31:59, python code/commands_analysis.py
+63 ,2024-10-07-19:32:57, print-history > ./data/bash_history.csv

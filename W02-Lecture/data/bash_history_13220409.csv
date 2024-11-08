@@ -1,0 +1,47 @@
+1 ,2024-10-06-23:05:53, python
+2 ,2024-10-06-23:11:47, ls
+3 ,2024-10-06-23:11:51, pwd
+4 ,2024-10-06-23:11:53, cd
+5 ,2024-10-06-23:11:57, pwd
+6 ,2024-10-06-23:12:23, cd /W02-Practice
+7 ,2024-10-06-23:12:29, cd W02-Practice
+8 ,2024-10-06-23:12:34, ls
+9 ,2024-10-06-23:12:52, mkdir data
+10 ,2024-10-06-23:12:57, mkdir code
+11 ,2024-10-06-23:12:59, ls
+12 ,2024-10-06-23:13:38, history
+13 ,2024-10-06-23:13:53, print -history
+14 ,2024-10-06-23:14:11, print-history
+15 ,2024-10-06-23:15:23, print-history > ./data/bash_history.csv
+16 ,2024-10-06-23:15:47, ls ./data
+17 ,2024-10-06-23:16:15, cat ./data/bash_history.csv
+18 ,2024-10-06-23:20:03, ls
+19 ,2024-10-06-23:20:13, cd ./data
+20 ,2024-10-06-23:20:15, ls
+21 ,2024-10-06-23:20:25, cat bash_history.csv
+22 ,2024-10-06-23:20:58, less bash_history.csv
+23 ,2024-10-06-23:21:16, less bash_history.csv
+24 ,2024-10-06-23:21:31, head bash_history.cvs
+25 ,2024-10-06-23:21:39, ls
+26 ,2024-10-06-23:21:46, head bash_history.csv
+27 ,2024-10-06-23:22:11, head -n 5 bash_history.csv
+28 ,2024-10-06-23:22:17, tail -n 5 bash_history.csv
+29 ,2024-10-06-23:22:38, wc -l bash_history.csv
+30 ,2024-10-06-23:22:56, wc -w bash_history.csv
+31 ,2024-10-06-23:23:21, grep -c 'ls' bash_history.csv
+32 ,2024-10-06-23:24:34, cat bash_history.csv
+33 ,2024-10-06-23:25:23, sort bash_history.csv
+34 ,2024-10-06-23:25:46, sort bash_history.csv | uniq -c
+35 ,2024-10-06-23:26:37, cut -d bash_history.csv
+36 ,2024-10-06-23:26:54, cut --help
+37 ,2024-10-06-23:27:38, cut -d, -f 3 bash_history.csv
+38 ,2024-10-06-23:28:41, cut -d, -f 3 bash_history.csv | cut -f 2
+39 ,2024-10-06-23:29:01, cut -d, -f 3 bash_history.csv | cut -f 2 -d ' '
+40 ,2024-10-06-23:29:16, cut -d, -f 3 bash_history.csv | cut -f 2 -d ' ' | uniq -c
+41 ,2024-10-06-23:29:35, cut -d, -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c
+42 ,2024-10-06-23:31:02, cut -d, -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -n
+43 ,2024-10-06-23:31:35, cut -d, -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -nr
+44 ,2024-10-06-23:31:55, echo "My top 5 commands:" cut -d, -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -nr
+45 ,2024-10-06-23:32:27, echo "My top 5 commands:"
+46 ,2024-10-06-23:32:32, cut -d, -f 3 bash_history.csv | cut -f 2 -d ' ' | sort | uniq -c | sort -nr
+47 ,2024-10-06-23:34:38, print-history > bash_history.csv
